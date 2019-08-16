@@ -34,14 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    Adaptive websites use HTML to pre-select different screen sizes and have templates prepared for each specific device. Responsive design uses media-queries for detecting device sizes while using flexible grid and images to adjust to screens appropriately. Responsive websites also load faster, but is more difficult to create compared to other formats. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    Mobile first is the process of creating your project/website inside out. Instead of using max-width, you can use min-width as the breakpoints in the project in order to expand to bigger layouts. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    Rem units are relative to the html root font size. So, a font size at 62.5% is about 10px. From there you can use rems on the entire page by using decimals, which makes calculations for font-size much easier. 
+
 4. How would you describe preprocessing to someone new to CSS?
+
+    Preprocessing on CSS is a cleaner way to write code. You can nest elements within their parent to it makes it easier to navigate through your CSS documents. It provides more options to use tools like mix-ins and variables that can help you prevent DRY code. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+    I enjoy nesting because it’s much easier to write and follow along with the code. I am having the most trouble using parametric mix-ins because I would like to know the exact concepts I’m looking to adjust. 
+    
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up

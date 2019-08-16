@@ -1,1 +1,34 @@
 // Mixins Here
+.stack(@direction,@alignment) {
+    display: flex;
+    flex-flow: @direction;
+    align-items: @alignment;
+}
+
+.size(@width,@height) {
+    width: @width;
+    height: @height;
+}
+
+.custom-btn (@width:30%, @height:10%, @bgcolor:black, @font-color:white) {
+    width: @width;
+    height: @height;
+    margin: 0 10px 20px;
+    border-radius: 3px;
+    background-color: @bgcolor;
+    color: @font-color;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 1.7rem;
+   
+    @media @phone {
+        .size(100%,60px);
+        font-size: 2rem;
+        padding-top: 4.5%;
+    }
+    
+    &:hover{
+        background-color: @font-color;
+        color: @bgcolor;
+    }
+}

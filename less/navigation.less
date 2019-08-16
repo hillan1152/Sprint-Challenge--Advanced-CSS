@@ -1,9 +1,8 @@
 // Navigation code here
 .navigation {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+    .stack(column, center);
     line-height: 1.5;
+    background-color: @wild-sand;
     h1 {
         font-size: 4rem;
         padding-top: 1%;
@@ -12,12 +11,12 @@
         font-size: 1.5rem;
         width: 30%;
         text-align: center;
+        margin-bottom: 1%;
         a {
             text-decoration: none;
             color: @ebony-clay;
             margin-left: 3.5%;
             margin-right: 3.5%;
-            
             
         }//end of a
     }//end of nav
